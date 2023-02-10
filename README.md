@@ -2,7 +2,7 @@
 
 My name is Vimal S.
 
-##Steps to work with this app
+## Steps to work with this app
 
 1. You can start the app using ### `npm start`
 

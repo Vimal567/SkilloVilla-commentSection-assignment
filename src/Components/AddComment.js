@@ -5,7 +5,6 @@ import { allData } from "./Landingpage";
 const AddComment = ({save}) => {
     const data = useContext(allData)
     const [value, setValue] = useState("");
-    const [sortBy, setSorBy] = useState("");
 
     const handleAddComment = () => {
         if(!value){

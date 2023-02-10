@@ -19,5 +19,13 @@
     border-radius: 12px 12px 12px 12px;
     height: 2rem;
     margin-left: 1rem;
+    margin-right: 1rem;
     cursor: pointer;
+}
+select{
+    background-color: rgb(212, 205, 205);
+    border-radius: 10px 12px 12px 10px;
+    height: 2rem;
+    outline: none;
+    border: none;
 }

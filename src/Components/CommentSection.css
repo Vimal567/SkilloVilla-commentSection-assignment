@@ -1,0 +1,113 @@
+.each-comment{
+    position: relative;
+    width: 40rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.each-comment img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+.user-details{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+.user-details p{
+    width: 90%;
+    flex-wrap: wrap;
+    margin-top: -0.2rem;
+}
+.user-name-time{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    color: rgb(84, 134, 226);
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.time{
+    color: gray;
+    font-weight: 500;
+}
+.new-functionality-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -0.5rem;
+}
+.thumb{
+    height: 1rem !important;
+    cursor: pointer;
+}
+.thumb:hover{
+    background-color: rgb(207, 206, 206);
+    transition: 0.3s;
+    border-radius: 12px 12px 12px 12px;
+}
+.new-functionality-section button{
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+}
+.new-functionality-section button:hover{
+    background-color: rgb(207, 206, 206);
+    transition: 0.3s;
+    border-radius: 12px 12px 12px 12px;
+}
+
+/* Add reply css */
+.addReply{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+.addReply input{
+    width: 20rem;
+    height: 2rem;
+}
+.addReply button{
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+    margin: 0.2rem;
+}
+.addReply button:hover{
+    background-color: rgb(207, 206, 206);
+    transition: 0.3s;
+    border-radius: 12px 12px 12px 12px;
+}
+
+/* Edit Delete css */
+.action-buttons{
+    display: none;
+    position: absolute;
+    top: 3%;
+    right: 1%;
+}
+.each-comment:hover .action-buttons{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.edit-section input{
+    width: 20rem;
+    height: 2rem;
+}
+.edit-section button{
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+    margin: 0.2rem;
+}
+.edit-section button:hover{
+    background-color: rgb(207, 206, 206);
+    transition: 0.3s;
+    border-radius: 12px 12px 12px 12px;
+}

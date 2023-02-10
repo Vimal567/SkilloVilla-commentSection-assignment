@@ -28,4 +28,4 @@ https://github.com/Vimal567/SkilloVilla-commentSection-assignment
 
 ## Deployed Link
 
-vimal-skillovilla-comment.netlify.app
+https://vimal-skillovilla-comment.netlify.app
